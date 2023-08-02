@@ -27,10 +27,12 @@ git clone https://github.com/dusty-nv/pytorch-ssd.git
 python3 ssd/onnx_export.py --model-dir=models/animal
 ```
 
-5.Run (its a example command in [] you can use your file)
+5.Download your picture and drag it to data/images folder
+
+6.Run (its a example command in [] you can use your file)
 ```
 python3 detectnet.py "data/images/[image].jpg" data/test/[result].jpg
 ```
-6.After the running if a person is detected, it will show a message "Warning, people in there" in the terminal, if a fox or a bear is detected , it will show a message "Animal in there" in the terminal. If nothing is detected, it will show "Clear".
+7.After the running if a person is detected, it will show a message "Warning, people in there" in the terminal, if a fox or a bear is detected , it will show a message "Animal in there" in the terminal. If nothing is detected, it will show "Clear".
 
 [View a video explanation here](video link)
