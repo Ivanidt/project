@@ -1,8 +1,10 @@
-# Project Name
+# Hunter Alert System (HAS)
 
 Welcome to my demo model! Its project about scan around in the environment animals and people. Its will helps to hunter with searching animals (like foxes and bears and etc.But my model only detects first two animals.) and avoid shooting to the people by accident.  
 
-![add image descrition here](direct image link here)
+![Demo](https://i.imgur.com/HcH8Rag.jpg)
+
+![Result](https://i.imgur.com/ppoRaPW.png)
 
 ## The Algorithm
 
