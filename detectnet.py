@@ -61,6 +61,5 @@ else:
           print("Animal in there")
      else:
           print("Clear")
-     print(fox_objects)
-     print(default_objects)
+
 

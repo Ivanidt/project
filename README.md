@@ -1,4 +1,6 @@
 # Hunter Alert System (HAS)
+Link to my video:
+https://youtu.be/xAfSKO93FIs
 
 Welcome to my demo model! Its project about scan around in the environment animals and people. Its will helps to hunter with searching animals (like foxes and bears and etc.But my model only detects first two animals.) and avoid shooting to the people by accident.  
 
@@ -36,5 +38,3 @@ python3 ssd/onnx_export.py --model-dir=models/animal
 python3 detectnet.py "data/images/[image].jpg" data/test/[result].jpg
 ```
 7.After the running if a person is detected, it will show a message "Warning, people in there" in the terminal, if a fox or a bear is detected , it will show a message "Animal in there" in the terminal. If nothing is detected, it will show "Clear".
-
-[View a video explanation here](video link)
